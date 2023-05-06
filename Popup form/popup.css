@@ -83,6 +83,7 @@ label{
     position: absolute;/*makes the icon to move up to the top inside the div*/
     right: 20px;
     cursor: pointer;
+    color: white;
 }
 .close-icon:hover{
     color: red;

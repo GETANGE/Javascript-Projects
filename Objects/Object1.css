@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+:root{
+    --background-color:blue;
+    --main--color:black;
+    --text--color:yellow;
+    --section-one:white;
+}
+html{
+    background: var(--text--color);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-one{
+    background: var(--section-one);
+    height: 100vh;
+    width: 50%;
+}

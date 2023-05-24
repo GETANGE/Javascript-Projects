@@ -10,9 +10,7 @@ function validate() {
             break; // Exit the loop since one radio button is checked
         }
     }
-    if(valid){
-        alert("Check is Successful!");
-    }else{
+    if(!valid){
         alert("Check atleast one radio button");
         return false;
     }

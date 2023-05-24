@@ -1,3 +1,23 @@
+//adding functionality to the radio buttons
+function validate() {
+    let valid = false;
+    const radio = document.getElementsByName("radioBtn");
+
+    // Loop through the radio buttons
+    for (let i = 0; i < radio.length; i++) {
+        if (radio[i].checked) {
+            valid = true;
+            break; // Exit the loop since one radio button is checked
+        }
+    }
+    if(valid){
+        alert("Check is Successful!");
+    }else{
+        alert("Check atleast one radio button");
+        return false;
+    }
+}
+
 let Emmanuel={
     Name: "Name: Emmanuel Getange",
     Occupation: "Occupation: Fullstack web developer",

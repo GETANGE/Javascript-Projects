@@ -1,0 +1,12 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+    height: 200px;
+}
